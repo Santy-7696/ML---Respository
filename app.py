@@ -4,7 +4,7 @@ import joblib
 from datetime import datetime
 
 # Load model (assuming the model is in the same directory)
-model = joblib.load(Random_Forest_model)
+model = joblib.load("Random_Forest_model.joblib")
 
 # Function to connect to the database and fetch data
 def fetch_data(query):

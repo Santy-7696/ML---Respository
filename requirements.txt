@@ -1,7 +1,6 @@
-pip
 streamlit
 psycopg2-binary
 joblib
 scikit-learn
 pandas
-numpy    
+numpy

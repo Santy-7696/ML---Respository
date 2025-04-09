@@ -8,6 +8,7 @@ model = joblib.load("Random_Forest_model")
 
 # Function to connect to the database and fetch data
 def fetch_data(query):
+    connection = None
     try:
         connection = pg.connect(
             dbname="enabl_crm",
